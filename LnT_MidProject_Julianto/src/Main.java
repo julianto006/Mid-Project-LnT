@@ -1,6 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.IF_ACMPEQ;
-
-import javax.xml.crypto.dsig.keyinfo.KeyName;
 import java.util.Scanner;
 import java.util.Vector;
 import java.util.regex.Matcher;
