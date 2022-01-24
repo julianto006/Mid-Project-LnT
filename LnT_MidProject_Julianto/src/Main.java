@@ -150,9 +150,7 @@ public class Main {
                 pick = sc.nextInt();
                 System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-            if (pick <= vector.size()){
-
-
+        
                 kendaranGet = vector.get(--pick);
 
                 if(kendaranGet instanceof Car) {
@@ -189,10 +187,9 @@ public class Main {
                         System.out.println("Price: "+priceHelm);
 
                     }
-                } else {
-                    System.out.println("Input invalid!");
-                    System.out.println("~~~~~~~~~~~~~~");
-                }
+               if (pick == 0){
+                     System.out.printf("Good bye!");
+               }
 
 
 
